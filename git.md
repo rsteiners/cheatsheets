@@ -8,7 +8,7 @@
 
 .gitignore file (see patterns on https://github.com/github/gitignore)
 
-# History
+### History
 - git log (history)
 - git log -2 (two most recent commits)
 - git log --pretty=<oneline|full|fuller>
@@ -16,25 +16,25 @@
 - git log --until "2 months"
 - git log --graph
 
-# Changing the commit befor pushing to the server
+### Changing the commit befor pushing to the server
 - git commit --amend (replaces the previous commit)
 
-# Reverting the commit
+### Reverting the commit
 - git revert <commitID> (use git log to find the commitID)
 
-# Cloning
+### Cloning
 - git clone <url> (make sure it is https)
 
-# Remote
+### Remote
 - git remote (list the remotes)
 
-Also possible:
+#### Also possible:
   - git remote add <remote_repo_name>
   - git remote remove <remote_repo_name>
   - git fetch <remote_repo_name> (download information from the remote repo, but doesn’t merge)
   - git merge <remote_repo_name>/master master (this one merges)
 
-# Perform the change to the target file
+### Perform the change to the target file
 - Perform a git status - you will see the file had been modified
 - Perform a git add <target_file> to add this modified file the the staging area
 - Perform a git status again to see that the changes are now ready to be committed
@@ -44,7 +44,7 @@ Also possible:
 
 Note: git pull is an alias to git fetch + git merge all together.
 
-# Tags
+### Tags
 - git tag (list all the tags in the repository)
 - git tag --list <glob> shows all tags matching the glob pattern
 - git tag “1.0” (creates a lightweight tag called 1.0)
@@ -56,10 +56,10 @@ Note: git pull is an alias to git fetch + git merge all together.
 
 Note: annotated tags contain more information. Created by passing the -a flag to git.
 
-# Staged area
+### Staged area
 - git reset <file_name> (removes a file from the staged area).
 
-# Branching:
+### Branching
 - git branch whatever (create a local branch called whatever, but HEAD stills point to main branch)
 - git checkout whatever (move HEAD to the whatever branch)
 - git checkout -b whatever (this is the shorthand for the previous two commands in one shot)
@@ -67,7 +67,7 @@ Note: annotated tags contain more information. Created by passing the -a flag to
 - git branch -v (list the last commit on each branch)
 - git branch -d <branch_name> (deletes the target branch)
 
-# See also
+### See also
 - https://randyfay.com/content/avoiding-git-disasters-gory-story
 - https://randyfay.com/content/rebase-workflow-git
 - pull request workflow
