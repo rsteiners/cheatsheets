@@ -8,6 +8,14 @@
 
 .gitignore file (see patterns on https://github.com/github/gitignore)
 
+### Configuration
+git config --global user.email "someone@somewhere.whatever"<br />
+git config --glocal user.name "someone"<br />
+##### To list all global configuration
+git config --global -l
+##### To list all local configuration
+git config --local -l
+
 ### History
 - git log (history)
 - git log -2 (two most recent commits)
