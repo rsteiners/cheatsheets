@@ -28,7 +28,9 @@ git log --graph<br />
 git commit --amend (replaces the previous commit)
 
 ### Reverting the commit
-git revert <commitID> (use git log to find the commitID)
+git revert <commitID> (use git log to find the commitID)<br />
+git reset HEAD~n (n is the number of last commits to be reverted).
+  - Example: git reset HEAD~1 (revert only the latest commit).
 
 ### Cloning
 git clone <url> (make sure it is https)
