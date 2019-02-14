@@ -16,6 +16,9 @@ git config --global -l
 ##### To list all local configuration
 git config --local -l
 
+### Adding all the files in the current directory
+git -a . (note: it adds all files and subdirectories recursively)
+
 ### History
 git log (history)<br />
 git log -2 (two most recent commits)<br />
