@@ -1,8 +1,8 @@
-# Pre requisite
+### Pre requisite
 pip install wheel
 
-# Installing python-yubico
+### Installing python-yubico
 pip install python-yubico
 
-# Oficial webpage
+### Oficial webpage
 https://developers.yubico.com/python-yubico/
