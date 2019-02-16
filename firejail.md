@@ -8,3 +8,9 @@ firejail google-chrome-stable --noprofile
 
 ### To run KeePassXC with yubikey challenge mode
 firejail --ignore=private-dev --ignore=protocol keepassxc
+
+### To create symbolic links
+sudo firecfg
+
+### To remove symbolic links
+sudo firecfg --clean
