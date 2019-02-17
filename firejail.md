@@ -4,10 +4,10 @@ sudo apt install libapparmor-dev<br />
 ./configure -prefix=/usr --enable-apparmor
 
 ### To run Google Chrome with FIDO U2F working
-firejail --ignore=private-dev google-chrome-stable
+firejail --apparmor --ignore=private-dev --ignore=nodbus google-chrome-stable
 
 ### To run KeePassXC with yubikey challenge mode
-firejail --ignore=private-dev --ignore=protocol keepassxc
+firejail --apparmor --ignore=private-dev --ignore=protocol keepassxc
 
 ### To create symbolic links
 sudo firecfg
