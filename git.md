@@ -77,7 +77,7 @@ git branch whatever (create a local branch called whatever, but HEAD stills poin
 git checkout whatever (move HEAD to the whatever branch)<br />
 git checkout -b whatever (this is the shorthand for the previous two commands in one shot)<br />
 git checkout -b <new_branch_name> <existent_tag> (create a new branch pointing to an existent tag)<br />
-git checkout -t <remote>/<remote_branch> (checkout the remote branch localy)
+git checkout -t <remote>/<remote_branch> (checkout the remote branch localy)<br />
 git branch --no-merged (list all branches that contain work you haven’t merged yet)<br />
 git branch -v (list the last commit on each branch)<br />
 git branch -d <branch_name> (deletes the target branch)<br />
